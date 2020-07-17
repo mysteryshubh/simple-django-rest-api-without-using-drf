@@ -1,5 +1,6 @@
 from django.db import models
 
-class Car(models.Model):
+class Student(models.Model):
+    student_id = models.CharField(max_length=100)
     name = models.CharField(max_length=100)
-    top_speed = models.IntegerField()
+    standard = models.IntegerField()

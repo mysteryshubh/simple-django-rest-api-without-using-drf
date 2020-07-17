@@ -21,6 +21,6 @@ from myapp import views
 urlpatterns = [
     #path('admin/', admin.site.urls),
     path('', views.index),
-    path('car', views.add_car),
-    path('<str:car_name>', views.get_car),
+    path('student', views.add_student),
+    path('<str:idi>', views.get_student),
 ]
